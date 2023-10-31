@@ -1,8 +1,8 @@
 "use client"
 
-import {styled} from "styled-components"
+import styled from "styled-components"
 
-import { Saira_Stencil_One } from 'next/font/google'
+import {Saira_Stencil_One} from 'next/font/google'
 
 const sairaStencil = Saira_Stencil_One({ 
   weight: ['400'],
