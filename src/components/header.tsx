@@ -30,9 +30,9 @@ const Logo = styled.a`
 export function Header(props: HeaderProps){
     return(
         <TagHeader>
-            <Logo className={sairaStencil.className}>Capputeeno Thatto</Logo>
+            <Logo className={sairaStencil.className}>Capputeeno Coffee</Logo>
             <div>
-                <PrimaryInputWSearchIcon placeholder="Procurando por algo específico?"/>
+                <PrimaryInputWSearchIcon/>
             </div>
         </TagHeader>
     )

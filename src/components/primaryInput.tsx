@@ -16,7 +16,7 @@ export const PrimaryInput = styled.input`
     color: var(--text-dark);
 `
 
-const InputContainer = styled.div`
+export const InputContainer = styled.div`
     position: relative;
     width: 352px;
 
@@ -33,7 +33,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
 export function PrimaryInputWSearchIcon(props: InputProps){
     return (
         <InputContainer>
-            <PrimaryInput/>
+            <PrimaryInput placeholder="Procurando por algo específico?"/>
             <SearchIcon/>
         </InputContainer>
     )
